@@ -1,104 +1,99 @@
-Budget Buddy
-Budget Buddy είναι μια Java desktop εφαρμογή για την εύκολη ομαδική διαχείριση εξόδων. Σκοπός της εφαρμογής είναι να επιτρέπει στους χρήστες να δημιουργούν ομάδες (για ταξίδια, projects, συγκατοικήσεις κ.ά.) και να παρακολουθούν ποιος χρωστάει σε ποιον και πόσα.
+Ακολουθεί μια βελτιωμένη και επαγγελματική έκδοση του README.md στα αγγλικά, σχεδιασμένη για να εντυπωσιάσει recruiters σε FinTech ρόλους. Έχω οργανώσει την πληροφορία με καθαρά headings και τεχνικές λεπτομέρειες που αναδεικνύουν τις ικανότητές σου στη Java και τη διαχείριση βάσεων δεδομένων.
 
-Λειτουργίες (Functional Requirements)
-Διαχείριση Χρήστη
-UC01 - Create Profile: Δημιουργία προφίλ με όνομα και κωδικό πρόσβασης.
+Budget Buddy 💰
 
-UC02 - Login: Είσοδος στην εφαρμογή μέσω λογαριασμού.
+Budget Buddy is a robust Java-based desktop application designed for seamless group expense management. It empowers users to create groups for trips, projects, or shared housing, providing a transparent way to track shared costs and settle balances efficiently.
 
-Ομάδες
-UC03 - Create Team: Δημιουργία νέας ομάδας με τίτλο, περιγραφή και κατηγορία. Δημιουργείται μοναδικός κωδικός για τη συμμετοχή.
 
-UC04 - Join Team: Είσοδος σε υπάρχουσα ομάδα με χρήση κωδικού.
+🚀 Key Features
+User Management
 
-UC05 - Select Existing Team: Επιλογή από τις υπάρχουσες ομάδες του χρήστη.
+Profile Creation: Securely create a personal profile with credentials.
 
-UC06 - Delete Team: Διαγραφή ομάδας.
 
-Έξοδα
-UC07 - Add Expense: Καταχώρηση νέου εξόδου στην ομάδα.
+Secure Login: Access the platform via a personalized authentication system.
 
-UC08 - View Expense: Προβολή εξόδων και κατανομής για κάθε μέλος.
+Group & Team Dynamics
 
-UC09 - Edit Expense: Επεξεργασία εξόδων.
+Team Collaboration: Create teams with unique titles, descriptions, and categories.
 
-UC10 - Delete Expense: Διαγραφή εξόδων.
+Invite System: Join existing teams using a unique participation code.
 
-Ισοζύγιο και Στατιστικά
-UC11 - View Balance: Προβολή συνολικού ισοζυγίου ανά μέλος.
+Flexible Management: Easily switch between, manage, or delete existing teams.
 
-UC12 - Edit Paid Balance: Σημείωση πληρωμών μεταξύ χρηστών.
+Expense Tracking
 
-UC13 - View My Total / Team Total: Προβολή ατομικού και συνολικού ποσού εξόδων ομάδας.
+Comprehensive Logging: Add, view, edit, or delete expenses within any group.
 
-Μη Λειτουργικές Απαιτήσεις (Non-Functional Requirements)
-Απόδοση: Άμεση απόκριση και σταθερή λειτουργία.
 
-Χρηστικότητα: Φιλική και κατανοητή διεπαφή χρήστη (UI).
 
-Ασφάλεια: Ισχυροί μηχανισμοί προστασίας δεδομένων.
+Detailed Distribution: Track exactly how much each member owes and view expense breakdowns.
 
-Ευελιξία: Εύκολη προσαρμογή σε μελλοντικές επεκτάσεις.
+Financial Insights & Settlement
 
-Δεν Υποστηρίζονται (Won’t Have)
-Προσαρμογή εμφάνισης (theme).
+Real-time Balances: Monitor the total balance for each member.
 
-Πραγματοποίηση οικονομικών συναλλαγών.
 
-Πολλαπλά νομίσματα.
+Payment Tracking: Mark payments as "settled" between users to keep balances updated.
 
-Live Chat.
+Financial Summaries: View individual and total team spending at a glance.
 
-Προηγμένα στατιστικά / αναφορές.
+🛠 Technical Stack
 
-Εγκατάσταση και Εκτέλεση
-Προαπαιτούμενα
-Java εγκατεστημένη στο σύστημά σας.
+Language: Java 
 
-XAMPP με ενεργούς τους Apache και MySQL servers.
 
-Πρόσβαση στο διαδίκτυο για GitHub και phpMyAdmin.
 
-Βήμα 1: Κατέβασμα
-Μεταβείτε στο GitHub Repository
+GUI Framework: Java Swing / JavaFX 
 
-Βεβαιωθείτε ότι βρίσκεστε στο branch main.
 
-Κατεβάστε το αρχείο BUDGET BUDDY.zip.
+Backend: PHP 
 
-Κάντε unzip και αποθηκεύστε το σε γνωστή τοποθεσία.
 
-Βήμα 2: Εισαγωγή Βάσης Δεδομένων
-Ανοίξτε το XAMPP και ενεργοποιήστε τους Apache και MySQL.
+Database: MySQL (relational structure with ER Diagram design) 
 
-Μεταβείτε στο phpMyAdmin.
 
-Δημιουργήστε νέα βάση δεδομένων με όνομα budgetbuddy.
 
-Πατήστε Εισαγωγή, επιλέξτε το αρχείο budgetbuddy.sql (στον φάκελο BUDGET BUDDY) και πατήστε εκτέλεση.
 
-Βήμα 3: Εκτέλεση Εφαρμογής
-Ανοίξτε τον φάκελο BUDGET BUDDY.
+Tools: VS Code, XAMPP, Postman for API testing 
 
-Εκτελέστε το αρχείο run.bat (Windows Batch File).
 
-Η εφαρμογή θα ξεκινήσει αυτόματα μέσω του .jar αρχείου.
+⚙️ Installation & Setup
+Prerequisites
+Java Runtime Environment (JRE) installed on your system.
 
-Προγραμματιστικά Στοιχεία
-Γλώσσα: Java
+XAMPP (with Apache and MySQL modules active).
 
-IDE: VS Code
+MySQL Database: Access via phpMyAdmin.
 
-Back-End: MySQL + PHP
+Step 1: Download & Extract
+Download the BUDGET BUDDY.zip from the main branch of this repository.
 
-UI: Java Swing
+Unzip the folder to your preferred local directory.
 
-Database Script: budgetbuddy.sql
+Step 2: Database Configuration
+Open XAMPP Control Panel and start Apache and MySQL.
 
-Δείτε τον πλήρη κώδικα στο branch back-end.
+Navigate to http://localhost/phpmyadmin.
 
-Χρονοδιάγραμμα & Νομική Συμμόρφωση
-Το έργο αναπτύχθηκε εντός των προβλεπόμενων προθεσμιών.
+Create a new database named budgetbuddy.
 
-Πληροί τις βασικές απαιτήσεις προστασίας προσωπικών δεδομένων (GDPR-ready design).
+Select Import, choose the budgetbuddy.sql file located in the project folder, and click Execute.
+
+Step 3: Launch the Application
+Navigate to the project folder.
+
+Run the run.bat file (Windows).
+
+The application will launch automatically via the .jar executable.
+
+🔒 Quality & Compliance
+
+Architecture: Built using Object-Oriented Programming (OOP) principles for scalability.
+
+
+Data Integrity: Implements ER Diagram-based database design to ensure data consistency.
+
+Privacy: Designed with a GDPR-ready approach to basic personal data protection.
+
+Standards: Adheres to software quality analysis mindsets (inspired by ISO/IEC 25010).
