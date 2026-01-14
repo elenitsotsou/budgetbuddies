@@ -1,5 +1,3 @@
-Ακολουθεί μια βελτιωμένη και επαγγελματική έκδοση του README.md στα αγγλικά, σχεδιασμένη για να εντυπωσιάσει recruiters σε FinTech ρόλους. Έχω οργανώσει την πληροφορία με καθαρά headings και τεχνικές λεπτομέρειες που αναδεικνύουν τις ικανότητές σου στη Java και τη διαχείριση βάσεων δεδομένων.
-
 Budget Buddy 💰
 
 Budget Buddy is a robust Java-based desktop application designed for seamless group expense management. It empowers users to create groups for trips, projects, or shared housing, providing a transparent way to track shared costs and settle balances efficiently.
